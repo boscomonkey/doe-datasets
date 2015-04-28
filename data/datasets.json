@@ -1,0 +1,136 @@
+{
+  "data": [
+    {
+      "category_id": "energy-efficiency-renewable-energy-data-portal",
+      "name": "Visual Patent Search",
+      "url": "http://techportal.eere.energy.gov/VPS/index.html",
+      "description": "A searchable, sortable resource of patents from research funded by DOE."
+    },
+    {
+      "category_id": "energy-efficiency-renewable-energy-data-portal",
+      "name": "National Geothermal Data System (NGDS)",
+      "url": "http://geothermaldata.org/",
+      "description": "This resource contains raw geoscience data that can help pinpoint elusive sweet spots of geothermal energy deep in the earth, enabling researchers and commercial developers to find the most promising areas for geothermal energy."
+    },
+    {
+      "category_id": "energy-efficiency-renewable-energy-data-portal",
+      "name": "Bioenergy Knowledge Discovery Framework",
+      "url": "https://www.bioenergykdf.net/",
+      "description": "The Bioenergy KDF supports the development of a sustainable bioenergy industry by providing access to a variety of data sets, publications, and collaboration and mapping tools that support bioenergy research, analysis, and decision making. In the KDF, users can search for information, contribute data, and use the tools and map interface to synthesize, analyze, and visualize information in a spatially integrated manner."
+    },
+    {
+      "category_id": "energy-efficiency-renewable-energy-data-portal",
+      "name": "Buildings Performance Database",
+      "url": "https://bpd.lbl.gov/",
+      "description": "The Buildings Performance Database lets users mine anonymous statistical data from real buildings that match a specific building characteristic profile, enabling real estate professionals, contractors, policymakers and lenders to incorporate real-world performance data into their decision making."
+    },
+    {
+      "category_id": "energy-efficiency-renewable-energy-data-portal",
+      "name": "Energy Data Exchange",
+      "url": "https://edx.netl.doe.gov/",
+      "description": "EDX facilitates a more rapid and comprehensive utilization of key data needs that crosscut multiple projects/program areas (CO2 storage, unconventional and conventional hydrocarbon systems, natural gas hydrates, etc.)."
+    },
+    {
+      "category_id": "national-renewable-energy-data-resources",
+      "name": "Transparent Cost Database",
+      "url": "http://en.openei.org/wiki/Transparent_Cost_Database",
+      "description": "A database for energy related program cost - one of the databases and portals maintained by NREL."
+    },
+    {
+      "category_id": "national-renewable-energy-data-resources",
+      "name": "FRee Energy Data (FRED)",
+      "url": "http://en.openei.org/wiki/FRee_Energy_Data_%28FRED%29",
+      "description": "Open-access tool which enables cross-organizational comparisons of energy costs and performance - one of the databases and portals maintained by NREL."
+    },
+    {
+      "category_id": "national-renewable-energy-data-resources",
+      "name": "OpenEI.org",
+      "url": "http://en.openei.org/",
+      "description": "A knowledge-sharing wiki, containing links to Department of Energy and other energy datasets, applications and articles. OpenEI is a collaborative open data platform that builds knowledge and datasets, connects and structures data via linked open data standards, and utilizes crowd-sourcing and partner collaboration to build data/content.  It enables centralized data cataloging, dataset contributions by offices and their stakeholders, cross-laboratory participation/data connections, and dataset curation from subject matter experts."
+    },
+    {
+      "category_id": "national-renewable-energy-data-resources",
+      "name": "Geothermal Data Repository",
+      "url": "http://gdr.openei.org/index.php",
+      "description": "A Program Data Repository on OpenEI. These data repositories are geared toward collecting project and technical data to enable reporting compliance and provide DOE with needed information and data about the projects that they fund."
+    },
+    {
+      "category_id": "national-renewable-energy-data-resources",
+      "name": "Marine Hydro Kinetic Data Repository",
+      "url": "https://mhkdr.openei.org/",
+      "description": "A Program Data Repository on OpenEI. These data repositories are geared toward collecting project and technical data to enable reporting compliance and provide DOE with needed information and data about the projects that they fund."
+    },
+    {
+      "category_id": "national-renewable-energy-data-resources",
+      "name": "Energy DataBus",
+      "url": "http://en.openei.org/wiki/NREL_Energy_DataBus",
+      "description": "Another OpenEI resource used for tracking and analyzing energy use on NREL's Colorado campus. The system is applicable to other facilities -- including anything from a single building to a large military base or college campus -- or for other energy data management needs. Key features include the software's ability to store large amounts of time series data collected at high frequencies -- NREL collects some of its energy data every second -- and rich functionality to integrate this wide variety of data into a single database."
+    },
+    {
+      "category_id": "national-renewable-energy-data-resources",
+      "name": "Smart Grid Data Hub and Smartgrid.gov",
+      "url": "https://www.smartgrid.gov/",
+      "description": "NREL created an enterprise-level data hub that was responsible for collecting, managing, and storing the data generated through the Smart Grid Recovery Act Projects.  Any open data was automatically fed to SmartGrid.gov so that key datasets for projects could be transparently displayed to the public."
+    },
+    {
+      "category_id": "national-renewable-energy-data-resources",
+      "name": "Developer.nrel.gov",
+      "url": "http://developer.nrel.gov/",
+      "description": "NREL's developer network helps all developers access and use energy data via Web services, including renewable energy and alternative fuel data.  The API umbrella used for this system is open sourced and has been made accessible for others to use.  In fact, GSA's API umbrella utilizes this code base for all GSA related APIs."
+    },
+    {
+      "category_id": "doe-explorer",
+      "name": "Large-Scale Atomistic Simulations of Material Failure",
+      "url": "http://www.osti.gov/dataexplorer/biblio/1077335",
+      "description": "These simulations from 2000 examine the supersonic propagation of cracks and the formation of complex junction structures in metals. Eight simulations concerning brittle fracture, ductile failure, and shockless compression are available."
+    },
+    {
+      "category_id": "doe-explorer",
+      "name": "DOE Global Energy Storage Database",
+      "url": "http://www.osti.gov/dataexplorer/biblio/1134061",
+      "description": "The DOE International Energy Storage Database has more than 400 documented energy storage projects from 34 countries around the world. The database provides free, up-to-date information on grid-connected energy storage projects and relevant state and federal policies."
+    },
+    {
+      "category_id": "doe-explorer",
+      "name": "Chart of Nuclides from the National Nuclear Data Center (NNDC)",
+      "url": "http://www.osti.gov/dataexplorer/biblio/1077258",
+      "description": "The Chart of Nuclides is a software product that allows users to search and plot nuclear structure and nuclear decay data interactively. Using the Chart of Nuclides, it is possible to search for nuclear level properties (energy, half-life, spin-parity), gamma-ray information (energy, intensity, multipolarity, coincidences),radiation information following nuclear decay (energy, intensity, dose), and neutron-induced reaction data."
+    },
+    {
+      "category_id": "doe-explorer",
+      "name": "Engine Combustion Network Experimental Data",
+      "url": "http://www.osti.gov/dataexplorer/biblio/1077217",
+      "description": "Maintained by the Engine Combustion Department of Sandia National Laboratories, data currently available on the website includes reacting and non-reacting sprays in a constant-volume chamber at conditions typical of diesel combustion. A search utility displays data based on experimental conditions such as ambient temperature, ambient density, injection pressure, nozzle size, fuel, etc."
+    },
+    {
+      "category_id": "doe-explorer",
+      "name": "Community Climate System Model (CCSM) Experiments and Output Data",
+      "url": "http://www.osti.gov/dataexplorer/biblio/1077203",
+      "description": "The National Center for Atmospheric Research (NCAR) created the first version of the Community Climate Model (CCM) in 1983 as a global atmosphere model. It was improved in 1994 when NCAR, with support from the National Science Foundation (NSF), developed and incorporated a Climate System Model (CSM) that included atmosphere, land surface, ocean, and sea ice."
+    },
+    {
+      "category_id": "doe-explorer",
+      "name": "GSOD Based Daily Global Mean Surface Temperature and Mean Sea Level Air Pressure (1982-2011)",
+      "url": "http://www.osti.gov/dataexplorer/biblio/1130373",
+      "description": "This data product contains all the gridded data set at 1/4 degree resolution in ASCII format. Both mean temperature and mean sea level air pressure data are available. It also contains the GSOD data (1982-2011) from NOAA site, contains station number, location, temperature and pressures (sea level and station level)."
+    },
+    {
+      "category_id": "energy-information-administration",
+      "name": "EIA's open API",
+      "url": "http://www.eia.gov/beta/api/",
+      "description": "The Energy Information Administration's open Application Programming Interface"
+    },
+    {
+      "category_id": "green-butto-data",
+      "name": "Sample Data for the DOE Open Data by Design Contest",
+      "url": "https://services.greenbuttondata.org/sample-data-new.html",
+      "description": "Green Button is a secure way to get your energy usage information electronically."
+    },
+    {
+      "category_id": "green-butto-data",
+      "name": "Green Button Alliance",
+      "url": "http://greenbuttonalliance.org/",
+      "description": "The industry-led Green Button Alliance was legally incorporated and launched in February 2015."
+    }
+  ]
+}

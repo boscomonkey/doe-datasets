@@ -1,0 +1,46 @@
+{
+  "data": [
+    {
+      "id": "energy-efficiency-renewable-energy-data-portal",
+      "name": "Energy Efficiency & Renewable Energy Data Portal",
+      "url": null,
+      "description": "Select sources of data on energy efficiency and renewable energy technologies from throughout EERE and from the DOE national laboratories. These data resources provide information such as prices, savings, use, and state statistics by technology. Also included are links to more comprehensive data collections, policy data resources, and supply and demand forecasts."
+    },
+    {
+      "id": "national-renewable-energy-data-resources",
+      "name": "National Renewable Energy Data & Resources",
+      "url": null,
+      "description": "Databases, maps, and tools produced by the National Renewable Energy Laboratory can be found online. These resources are available to assess, analyze, and optimize renewable energy and energy efficiency technologies. NREL maintains a number of databases and portals."
+    },
+    {
+      "id": "doe-explorer",
+      "name": "DOE Explorer",
+      "url": "http://www.osti.gov/dataexplorer/",
+      "description": "This portal, launched in 2013 by DOE’s Office of Science, provides science, technology, and engineering research and data collections from DOE."
+    },
+    {
+      "id": "energy-information-administration",
+      "name": "Energy Information Administration",
+      "url": null,
+      "description": "The U.S. Energy Information Administration collects, analyzes, and disseminates independent and impartial energy information to promote sound policy making, efficient markets, and public understanding of energy and its interaction with the economy and the environment."
+    },
+    {
+      "id": "green-butto-data",
+      "name": "Green Button Data",
+      "url": null,
+      "description": "A set of RESTful API methods and an XML data standard allowing consumers to access their energy usage data and securely share that data with third-party web and mobile apps. Today, 48 utilities and electricity suppliers have committed to enable their customers with \"Green Button\" access. Over 42 million household and business customers already have access to their Green Button energy data."
+    },
+    {
+      "id": "national-library-of-energy",
+      "name": "National Library of Energy",
+      "url": null,
+      "description": "The library \"virtually integrates information from Energy.gov (the DOE website) and all DOE program offices, national laboratories and other facilities. The National Library of Energy search feature provides one-stop, easy access to information in DOE's broad mission areas: science and R&D; energy and technology for industry and homeowners; energy market information and analysis; and nuclear security and environmental management."
+    },
+    {
+      "id": "federal-energy-regulatory-commission-data-sets",
+      "name": "Federal Energy Regulatory Commission Data Sets",
+      "url": null,
+      "description": "Data from the Federal Energy Regulatory Commission, an independent agency that regulates the interstate transmission of natural gas, oil, and electricity."
+    }
+  ]
+}
