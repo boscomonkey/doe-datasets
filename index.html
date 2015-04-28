@@ -4,9 +4,9 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/print.css" media="print">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -28,14 +28,36 @@
           <a href="https://github.com/boscomonkey/doe-datasets" id="view-on-github" class="button"><span>View on GitHub</span></a>
         </section>
 
+<div>
+<a id="ode-draft-42415" class="anchor" href="#ode-draft-42415" aria-hidden="true"><span class="octicon octicon-link"></span></a>ODE DRAFT 4/24/15</div>
+
         <hr>
 
         <section id="main_content">
-          <h3>
-<a id="us-department-of-energy-featured-datasets" class="anchor" href="#us-department-of-energy-featured-datasets" aria-hidden="true"><span class="octicon octicon-link"></span></a>U.S. Department of Energy Featured Datasets</h3>
 
-<h4>
-<a id="ode-draft-42415" class="anchor" href="#ode-draft-42415" aria-hidden="true"><span class="octicon octicon-link"></span></a>ODE DRAFT 4/24/15</h4>
+<script id="category-template" type="text/x-handlebars-template">
+  <!-- {{name}} -->
+  <div class="category-group">
+    <h4 class="category-name">{{name}}</h4>
+
+    <p class="category-description">{{description}}</p>
+
+    <section class="category-datasets">
+      <ul class="dataset-group">
+        {{#each datasets}}
+        <li class="dataset">
+          <span class="dataset-name"><a class="dataset-url" href="{{url}}">{{name}}</a></span>:
+          <span class="dataset-description">{{description}}</span>
+        </li>
+        {{/each}}
+      </ul>
+    </section>
+  </div>
+</script>
+
+<section class="featured-datasets">
+</section>
+
         </section>
 
         <footer>
@@ -47,4 +69,8 @@
       </div>
     </div>
   </body>
+
+  <script src="js/lib/jquery-1.11.2.min.js" type="text/javascript"></script>
+  <script src="js/lib/handlebars-v3.0.1.js" type="text/javascript"></script>
+  <script src="js/main.js" type="text/javascript"></script>
 </html>
