@@ -387,3 +387,8 @@ li.dataset {
 .category-group {
     margin-top: 32px;
 }
+
+/* give some headroom to category description */
+.category-description {
+    margin-top: 4px;
+}

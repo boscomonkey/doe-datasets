@@ -39,6 +39,9 @@
   <!-- {{name}} -->
   <div class="category-group">
     <h4 class="category-name">{{name}}</h4>
+    {{#if url}}
+    <div class="category-url"><a href="{{url}}">{{url}}</a></div>
+    {{/if}}
 
     <p class="category-description">{{description}}</p>
 
