@@ -121,13 +121,13 @@
       "description": "The Energy Information Administration's open Application Programming Interface"
     },
     {
-      "category_id": "green-butto-data",
+      "category_id": "green-button-data",
       "name": "Sample Data for the DOE Open Data by Design Contest",
       "url": "https://services.greenbuttondata.org/sample-data-new.html",
       "description": "Green Button is a secure way to get your energy usage information electronically."
     },
     {
-      "category_id": "green-butto-data",
+      "category_id": "green-button-data",
       "name": "Green Button Alliance",
       "url": "http://greenbuttonalliance.org/",
       "description": "The industry-led Green Button Alliance was legally incorporated and launched in February 2015."

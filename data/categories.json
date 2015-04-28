@@ -25,7 +25,7 @@
       "description": "The U.S. Energy Information Administration collects, analyzes, and disseminates independent and impartial energy information to promote sound policy making, efficient markets, and public understanding of energy and its interaction with the economy and the environment."
     },
     {
-      "id": "green-butto-data",
+      "id": "green-button-data",
       "name": "Green Button Data",
       "url": null,
       "description": "A set of RESTful API methods and an XML data standard allowing consumers to access their energy usage data and securely share that data with third-party web and mobile apps. Today, 48 utilities and electricity suppliers have committed to enable their customers with \"Green Button\" access. Over 42 million household and business customers already have access to their Green Button energy data."
