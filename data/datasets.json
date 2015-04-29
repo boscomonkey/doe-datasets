@@ -132,5 +132,16 @@
       "url": "http://greenbuttonalliance.org/",
       "description": "The industry-led Green Button Alliance was legally incorporated and launched in February 2015."
     }
+    {
+      "category_id": "nepanode",
+      "name": "NEPAnode Site",
+      "url": "http://nepanode.anl.gov",
+      "description": "Collaboratively maintained Spatial Data Infrastrucure of Public Data and Documents used to inform project planning, siting, and analysis of the potential impacts to the environmental, social, and contextual resources that may be affected by Federal actions as required under the National Environmental Policy Act (NEPA). 
+    {
+      "category_id": "nepanode",
+      "name": "NEPAnode MapWarper",
+      "url": "http://warp.nepanode.anl.gov",
+      "description": "Web-based Georeferencer allowing users to turn static images from historic documents and maps into accurate useable geospatial data. Maps from DOE's NEPA documents covering DOE's major projects since 1970 along with the link to the documents for those projects on energy.gov; all searchable by Text, Keyword, or Location"
+    }
   ]
 }
