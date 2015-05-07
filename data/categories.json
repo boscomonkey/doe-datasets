@@ -40,9 +40,8 @@
       "id": "nepanode",
       "name": "NEPAnode",
       "url": "http://github.com/DOE-NEPA",
-      "description": "NEPAnode is a collection of services and tools made available to federal staff and contractors working to implement the National Environmental Policy Act of 1969 (NEPA) and other related environmental reviews and permitting processes. This site is part of pilot effort at the US Department of Energy (DOE) ­ Office of NEPA Policy and Compliance to evaluate providing IT web services as a shared service, hosted on the cloud, and using only Free and Open Source Software (FOSS). NEPAnode's core mission is to enable non­-GIS professionals the same capabilities for data gathering and sharing. Also, moving from text­based documenting of a project to a map­based/visual approach.
-"
-    }
+      "description": "NEPAnode is a collection of services and tools made available to federal staff and contractors working to implement the National Environmental Policy Act of 1969 (NEPA) and other related environmental reviews and permitting processes. This site is part of pilot effort at the US Department of Energy (DOE) ­ Office of NEPA Policy and Compliance to evaluate providing IT web services as a shared service, hosted on the cloud, and using only Free and Open Source Software (FOSS). NEPAnode's core mission is to enable non­-GIS professionals the same capabilities for data gathering and sharing. Also, moving from text­based documenting of a project to a map­based/visual approach."
+    },
     {
       "id": "federal-energy-regulatory-commission-data-sets",
       "name": "Federal Energy Regulatory Commission Data Sets",
