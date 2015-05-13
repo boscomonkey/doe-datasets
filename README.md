@@ -39,13 +39,13 @@ The datasets table has these fields:
 
 The IDs are contructed by converting lowercasing all the alphabetic characters and converting all occurrences of non-alphabetics into one hyphen.
 
-The ````categories```` and ````datasets```` tables are stored in a [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1YM4SlzE7lg_JfcCSRCrrNM6DeA8K43hgrWttaVVfhwE/edit#gid=0) and are exported to CSV files in ````data/```` with the command line utilities ````bin/categories_csv.sh```` and ````bin/datasets_csv.sh````.
+The ````categories```` and ````datasets```` tables are stored in a [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1YM4SlzE7lg_JfcCSRCrrNM6DeA8K43hgrWttaVVfhwE/edit#gid=0) and are exported to CSV files in [data/](data) with the command line utilities [bin/categories_csv.sh](bin/categories_csv.sh) and [bin/datasets_csv.sh](bin/datasets_csv.sh).
 
 ### Creating JSON from CSV ###
 
-Once you have valid CSV files, you can convert them into JSON that drives ````index.html```` by using the command line utility ````bin/csv_to_json.rb````. This utility will take either piped output from STDIN or one or more filenames specified as arguments. The output from the utility is sent to STDOUT and should be piped to a file.
+Once you have valid CSV files, you can convert them into JSON that drives [index.html](index.html) by using the command line utility [bin/csv_to_json.rb](bin/csv_to_json.rb). This utility will take either piped output from STDIN or one or more filenames specified as arguments. The output from the utility is sent to STDOUT and should be piped to a file.
 
-````bin/update_json_files.sh```` is a convenience script that performs the following in one shot:
+[bin/update_json_files.sh](bin/update_json_files.sh) is a convenience script that performs the following in one shot:
 
 * downloads categories and datasets from the Google Spreadsheet
 * saves them as CSVs
@@ -53,7 +53,7 @@ Once you have valid CSV files, you can convert them into JSON that drives ````in
 
 ### JavaScript Templating ###
 
-If you inspect ````index.html```` and ````js/main.js````, you will notice that the HTML file contains no content, and the JavaScript loads the data from JSON files and rendered them dynamically.
+If you inspect [index.html](index.html) and [js/main.js](js/main.js), you will notice that the HTML file contains no content, and the JavaScript loads the data from JSON files and rendered them dynamically.
 
 The rendering is performed via [Handlebar JS](http://handlebarsjs.com/) templating engine and you can see the template inside the ````script```` tag with ID "category-template" and type "text/x-handlebars-template".
 
