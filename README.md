@@ -15,7 +15,7 @@ We then realized that if the data is in machine readable format, then there is n
 
 ## Under the Covers ##
 
-If you wish to contribute to the categories and datasets described in this repo,it's useful to know the categories and datasets relate to each other. Also, it's useful to know where to store and manage the data so that changes are propagated to both machine and human readable formats.
+If you wish to contribute to the categories and datasets described in this repo, it's useful to know the categories and datasets relate to each other. Also, it's useful to know where to store and manage the data so that changes are propagated to both machine and human readable formats.
 
 ### Data Model ###
 
@@ -55,7 +55,7 @@ Once you have valid CSV files, you can convert them into JSON that drives [index
 
 If you inspect [index.html](index.html) and [js/main.js](js/main.js), you will notice that the HTML file contains no content, and the JavaScript loads the data from JSON files and rendered them dynamically.
 
-The rendering is performed via [Handlebar JS](http://handlebarsjs.com/) templating engine and you can see the template inside the ````script```` tag with ID "category-template" and type "text/x-handlebars-template".
+The rendering is performed via [Handlebar JS](http://handlebarsjs.com/) templating engine. In [index.html](index.html) you can see the template inside the ````script```` tag with ID ````category-template```` and type ````text/x-handlebars-template````.
 
 
 ## Contributing ##
