@@ -4,14 +4,11 @@ require 'minitest/autorun'
 require_relative '../../bin/csv_to_json'
 
 class CsvsToJsonTest < Minitest::Test
-  def setup
+  def test_categories
     fname = 'test/fixtures/categories.csv'
 
     @converter = CsvsToJson.new
     @result = @converter.process(File.open fname)
-  end
-
-  def test_csvs
     csvs = @result['data']
 
     assert_instance_of Array, csvs
@@ -39,5 +36,23 @@ class CsvsToJsonTest < Minitest::Test
       'url'  => nil,
     }
     expected_data.each {|key, val| assert_equal val, row[key]}
+  end
+
+  def test_extra_params
+    fname = 'test/fixtures/extra-params.csv'
+
+    @converter = CsvsToJson.new
+    @result = @converter.process(File.open fname)
+    csvs = @result['data']
+
+    extra_key = '$extra_params'
+    assert_instance_of Array, csvs
+    assert_equal 2, csvs.size
+
+    first_row = csvs[0]
+    assert_equal %w(YES NO), first_row[extra_key]
+
+    second_row = csvs[1]
+    refute second_row.include?(extra_key)
   end
 end

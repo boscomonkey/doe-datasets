@@ -15,11 +15,21 @@ class CsvsToJson
     array = []
 
     # iterate over rows
+    extras_key = "$extra_params"
     csv.each do |row|
       hash = {}
-      all_headers.each {|head|
-        key = head.downcase
-        hash[key] = row[head]
+      all_headers.each_with_index {|head, ii|
+        if head.nil?
+          # extra params w/o header
+          unless row[ii].nil?
+            hash[extras_key] = [] unless hash.include?(extras_key)
+            hash[extras_key] << row[ii]
+          end
+        else
+          # value has named header
+          key = head.downcase
+          hash[key] = row[head]
+        end
       }
 
       array << hash
